@@ -3,16 +3,14 @@ import SearchTab from '../components/SearchTab'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex">
-      <div className="w-[50%] h-screen shadow-2xl bg-gray-200">
+    <div className="flex flex-row">
+      <div className="flex flex-col w-[40%] h-screen shadow-lg bg-gray-200">
         <SearchTab />
       </div>
-      <div className="w-[50%] h-screen bg-slate-300">
+      <div className="flex felx-col w-[60%] h-screen bg-gray-400">
         <div className="flex text-white">Coucou</div>
       </div>
     </div>
-
-
   )
 }
 
