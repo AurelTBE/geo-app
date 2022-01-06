@@ -9,8 +9,12 @@ interface Props {
 
 const SearchTab = () => {
     return (
-        <div>
-            SearchTab
+        <div className="flex flex-row">
+            <nav className='px-6 py-5'>
+                <a href="" className='pr-4'>SEARCH BUILDER</a>
+                <a href="" className='pr-4'>SAVED SEARCHES</a>
+                <a href="" className='pr-4'>UPLOAD CVS</a>
+            </nav>
         </div>
     )
 }
